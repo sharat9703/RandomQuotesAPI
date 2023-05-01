@@ -19,7 +19,7 @@ mongoose.connect(URI).then(()=>{
 })
 
 app.get('/',(req,res)=>{
-    res.send("Hello! API");
+    res.send("Hello! API....next go to /quotes");
 });
 app.get('/quotes', async(req,res)=>{
    try {
